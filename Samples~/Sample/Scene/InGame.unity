@@ -132,7 +132,7 @@ MonoScript:
   m_Type: 0
   m_ExecutionOrder: 0
   m_ClassName: PresenterBinder
-  m_Namespace: Aftertime.StorylineEngine
+  m_Namespace: Lucecita.StorylineEngine
   m_AssemblyName: StorylineEngine
 --- !u!1 &75513944
 GameObject:
@@ -6073,7 +6073,7 @@ MonoScript:
   m_Type: 0
   m_ExecutionOrder: 0
   m_ClassName: PresenterBinder
-  m_Namespace: Aftertime.StorylineEngine
+  m_Namespace: Lucecita.StorylineEngine
   m_AssemblyName: StorylineEngine
 --- !u!1 &1740566659
 GameObject:

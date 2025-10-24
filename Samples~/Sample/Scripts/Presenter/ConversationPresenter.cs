@@ -1,12 +1,12 @@
 using System;
-using Aftertime.HappinessBlossom.UI;
-using Aftertime.StorylineEngine;
+using Lucecita.HappinessBlossom.UI;
+using Lucecita.StorylineEngine;
 using Febucci.UI;
 using Febucci.UI.Core;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Aftertime.HappinessBlossom.Presenter
+namespace Lucecita.HappinessBlossom.Presenter
 {
     public class ConversationPresenter : MonoBehaviour, IPresenter
     {

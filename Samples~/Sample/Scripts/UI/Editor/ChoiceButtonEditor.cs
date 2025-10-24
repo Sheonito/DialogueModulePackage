@@ -2,7 +2,7 @@ using Lucecita;
 using UnityEditor;
 using UnityEditor.UI;
 
-namespace Aftertime.SecretSome
+namespace Lucecita.SecretSome
 {
     [CustomEditor(typeof(ChoiceButton))]
     [CanEditMultipleObjects]

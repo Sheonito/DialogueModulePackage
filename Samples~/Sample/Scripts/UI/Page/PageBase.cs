@@ -2,7 +2,7 @@ using Lucecita;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Aftertime.HappinessBlossom.UI.Page
+namespace Lucecita.HappinessBlossom.UI.Page
 {
 #if UNITY_EDITOR
     [RequireComponent(typeof(PageView))]

@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Aftertime.StorylineEngine;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 using Lucecita;
 using UnityEngine;
 
-namespace Aftertime.SecretSome
+namespace Lucecita.SecretSome
 {
     public abstract class ChoiceBase<T> : TypedFunction<T> where T : Enum
     {

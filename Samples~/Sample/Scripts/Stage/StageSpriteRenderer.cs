@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public class StageSpriteRenderer : MonoBehaviour
     {

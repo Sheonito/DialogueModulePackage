@@ -1,10 +1,10 @@
-using Aftertime.HappinessBlossom.Directing;
+using Lucecita.HappinessBlossom.Directing;
 using DG.Tweening;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
 
-namespace Aftertime.HappinessBlossom.Stage
+namespace Lucecita.HappinessBlossom.Stage
 {
     public class StageCharacter : StageSpriteRenderer
     {

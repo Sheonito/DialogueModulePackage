@@ -1,4 +1,4 @@
-namespace Aftertime.HappinessBlossom.Define
+namespace Lucecita.HappinessBlossom.Define
 {
     public class ResourcesPath
     {

@@ -1,8 +1,8 @@
 using System.Linq;
-using Aftertime.StorylineEngine;
+using Lucecita.StorylineEngine;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom.Directing
+namespace Lucecita.HappinessBlossom.Directing
 {
     public class DirectingManager : MonoBehaviour
     {

@@ -1,5 +1,5 @@
 using System;
-using Aftertime.HappinessBlossom.UI;
+using Lucecita.HappinessBlossom.UI;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
 #if UNITY_EDITOR
     [RequireComponent(typeof(CanvasGroup))]

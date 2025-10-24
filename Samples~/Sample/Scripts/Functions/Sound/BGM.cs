@@ -1,8 +1,8 @@
 using System;
-using Aftertime.StorylineEngine;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public class BGM : TypedFunction<BGMValue>, IElementChangeFunc
     {

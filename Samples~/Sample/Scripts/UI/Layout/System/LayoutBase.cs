@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Lucecita;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom.UI.Layout
+namespace Lucecita.HappinessBlossom.UI.Layout
 {
     [RequireComponent(typeof(View))]
     public class LayoutBase : MonoBehaviour

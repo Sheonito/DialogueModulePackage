@@ -1,7 +1,7 @@
-using Aftertime.HappinessBlossom.Stage;
+using Lucecita.HappinessBlossom.Stage;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public class StageView : MonoBehaviour
     {

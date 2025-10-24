@@ -5,7 +5,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Aftertime.HappinessBlossom.Directing
+namespace Lucecita.HappinessBlossom.Directing
 {
     public enum ImageDirectingType
     {

@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using Aftertime.StorylineEngine;
+using Lucecita.StorylineEngine;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom.UI.Layout
+namespace Lucecita.HappinessBlossom.UI.Layout
 {
     public class LayoutManager : SingletonMonoBehaviour<LayoutManager>
     {

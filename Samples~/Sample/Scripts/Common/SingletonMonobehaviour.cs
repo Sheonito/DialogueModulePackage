@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public abstract class SingletonMonoBehaviour<T> : CachedAsset where T : MonoBehaviour
     {

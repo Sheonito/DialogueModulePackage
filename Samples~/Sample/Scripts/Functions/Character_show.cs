@@ -1,13 +1,13 @@
 using System.Collections.Generic;
-using Aftertime.HappinessBlossom.Define;
-using Aftertime.HappinessBlossom.Presenter;
-using Aftertime.HappinessBlossom.Stage;
-using Aftertime.StorylineEngine;
+using Lucecita.HappinessBlossom.Define;
+using Lucecita.HappinessBlossom.Presenter;
+using Lucecita.HappinessBlossom.Stage;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public class Character_show : TypedFunction<CharacterShowValue>, IElementChangeFunc
     {

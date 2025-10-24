@@ -1,8 +1,8 @@
-﻿using Aftertime.HappinessBlossom.Presenter;
-using Aftertime.StorylineEngine;
+﻿using Lucecita.HappinessBlossom.Presenter;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 
-namespace Aftertime.SecretSome
+namespace Lucecita.SecretSome
 {
     public class ResetConversation : Function, IElementChangeFunc
     {

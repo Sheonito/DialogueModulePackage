@@ -1,6 +1,6 @@
 using UnityEngine.UI;
 
-namespace Aftertime.HappinessBlossom.UI
+namespace Lucecita.HappinessBlossom.UI
 {
     public interface INavigationGroup
     {

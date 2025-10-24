@@ -1,11 +1,11 @@
-﻿using Aftertime.HappinessBlossom.Define;
-using Aftertime.HappinessBlossom.Directing;
-using Aftertime.HappinessBlossom.Presenter;
-using Aftertime.StorylineEngine;
+﻿using Lucecita.HappinessBlossom.Define;
+using Lucecita.HappinessBlossom.Directing;
+using Lucecita.HappinessBlossom.Presenter;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Aftertime.SecretSome
+namespace Lucecita.SecretSome
 {
     public class VignetteInOverlayBG : TypedFunction<VignetteInOverlayBGValue>,IElementChangeFunc
     {

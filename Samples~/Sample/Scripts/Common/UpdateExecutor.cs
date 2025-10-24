@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom.Common
+namespace Lucecita.HappinessBlossom.Common
 {
     public class UpdateExecutor : MonoBehaviour
     {

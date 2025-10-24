@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Aftertime.HappinessBlossom.Presenter;
-using Aftertime.StorylineEngine;
+using Lucecita.HappinessBlossom.Presenter;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public delegate void ConversationStartAction(string conversation, string[] characterNames);
     public delegate void InlineFunctionAction(StorylineEngine.Function function,InlineFunction inlineFunction);

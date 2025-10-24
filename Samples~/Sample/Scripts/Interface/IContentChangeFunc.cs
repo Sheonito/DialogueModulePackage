@@ -1,4 +1,4 @@
-namespace Aftertime.HappinessBlossom.Function
+namespace Lucecita.HappinessBlossom.Function
 {
     public interface IContentChangeFunc
     {

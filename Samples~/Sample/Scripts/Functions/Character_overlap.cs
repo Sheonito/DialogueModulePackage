@@ -1,12 +1,12 @@
-using Aftertime.HappinessBlossom.Define;
-using Aftertime.HappinessBlossom.Directing;
-using Aftertime.HappinessBlossom.Presenter;
-using Aftertime.HappinessBlossom.Stage;
-using Aftertime.StorylineEngine;
+using Lucecita.HappinessBlossom.Define;
+using Lucecita.HappinessBlossom.Directing;
+using Lucecita.HappinessBlossom.Presenter;
+using Lucecita.HappinessBlossom.Stage;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public class Character_overlap : TypedFunction<CharacterOverlapValues>, IElementChangeFunc
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom.Common
+namespace Lucecita.HappinessBlossom.Common
 {
     public class CameraScaler : MonoBehaviour
     {

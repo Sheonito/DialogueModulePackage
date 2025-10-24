@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-namespace Aftertime.HappinessBlossom.Directing
+namespace Lucecita.HappinessBlossom.Directing
 {
  public class CameraDirector
 {

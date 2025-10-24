@@ -1,10 +1,10 @@
 using System;
-using Aftertime.HappinessBlossom.Presenter;
-using Aftertime.StorylineEngine;
+using Lucecita.HappinessBlossom.Presenter;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 using UnityEngine.InputSystem;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public class UIOff : TypedFunction<UIOffFunctionValue>, IElementChangeFunc
     {

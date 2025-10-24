@@ -1,9 +1,9 @@
 using System;
-using Aftertime.HappinessBlossom.Directing;
-using Aftertime.StorylineEngine;
+using Lucecita.HappinessBlossom.Directing;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public enum FadeInValue { Duration }
     public class FadeIn : TypedFunction<FadeInValue>, IElementChangeFunc

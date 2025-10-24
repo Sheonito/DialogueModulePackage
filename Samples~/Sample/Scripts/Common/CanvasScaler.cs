@@ -1,7 +1,7 @@
 using Unity.Mathematics.Geometry;
 using UnityEngine;
 
-namespace Aftertime.TeachingAssistantLife.UI
+namespace Lucecita.TeachingAssistantLife.UI
 {
     public class CanvasScaler : UnityEngine.UI.CanvasScaler
     {

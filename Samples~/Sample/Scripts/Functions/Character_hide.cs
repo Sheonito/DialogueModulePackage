@@ -1,10 +1,10 @@
 using System;
-using Aftertime.HappinessBlossom.Presenter;
-using Aftertime.HappinessBlossom.Stage;
-using Aftertime.StorylineEngine;
+using Lucecita.HappinessBlossom.Presenter;
+using Lucecita.HappinessBlossom.Stage;
+using Lucecita.StorylineEngine;
 using Cysharp.Threading.Tasks;
 
-namespace Aftertime.HappinessBlossom
+namespace Lucecita.HappinessBlossom
 {
     public class Character_hide : TypedFunction<CharacterHideValue>,IElementChangeFunc
     {

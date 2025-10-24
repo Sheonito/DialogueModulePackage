@@ -5,7 +5,7 @@ using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom.Directing
+namespace Lucecita.HappinessBlossom.Directing
 {
     public class SpriteRendererDirector
     {

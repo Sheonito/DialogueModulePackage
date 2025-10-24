@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 using UnityEngine.Timeline;
 using UnityEngine.UI;
 
-namespace Aftertime.HappinessBlossom.Directing
+namespace Lucecita.HappinessBlossom.Directing
 {
     [System.Serializable]
     public class DirectingData

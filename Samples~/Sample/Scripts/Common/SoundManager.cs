@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public class SoundManager : SingletonMonoBehaviour<SoundManager>
     {

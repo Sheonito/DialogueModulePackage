@@ -20,7 +20,7 @@ namespace Lucecita.StorylineEngine.Editor
             if (importedAssets.Length == 0)
                 return;
             
-            string packageJsonPath = "Packages/com.lucecita.storylineengine/package.json";
+            string packageJsonPath = "Packages/com.lucecita.dialoguemodule/package.json";
             bool isPackageLoaded = IsPackageLoaded(importedAssets,packageJsonPath);
             if (isPackageLoaded)
             {

@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public class TimelineDirector
     {

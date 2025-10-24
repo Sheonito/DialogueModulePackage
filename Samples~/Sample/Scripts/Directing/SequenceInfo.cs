@@ -1,6 +1,6 @@
 using DG.Tweening;
 
-namespace Aftertime.HappinessBlossom.Directing
+namespace Lucecita.HappinessBlossom.Directing
 {
     public class SequenceInfo
     {

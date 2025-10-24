@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Aftertime.HappinessBlossom.UI.Layout
+namespace Lucecita.HappinessBlossom.UI.Layout
 {
     [CustomEditor(typeof(LayoutManager))]
     public class LayoutManagerEditor : UnityEditor.Editor
