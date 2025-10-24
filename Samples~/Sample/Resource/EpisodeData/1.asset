@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 94299b407aeabc24286335c89efb88b7, type: 3}
   m_Name: 1
-  m_EditorClassIdentifier: StorylineEngine:Aftertime.StorylineEngine:EpisodeData
+  m_EditorClassIdentifier: 
   _textElements:
   - text: '#UIOff=0'
     index: 0
     episodeName: 1
-    uid: 4e2eb604-ca0b-4e4b-8165-829a063a332f
+    uid: a8e0b329-7264-469f-b26c-1eaba710673f
     characters: []
     functionName: UIOff
     functionType: 0
@@ -28,7 +28,7 @@ MonoBehaviour:
   - text: '#BGM=4, 1'
     index: 1
     episodeName: 1
-    uid: 391b21a4-eef0-4309-9156-9586466ae1a4
+    uid: 7deeceb8-5dfe-423f-8a0f-dfb291ed899d
     characters: []
     functionName: BGM
     functionType: 0
@@ -41,7 +41,7 @@ MonoBehaviour:
   - text: '#ResetConversation'
     index: 2
     episodeName: 1
-    uid: b21d2490-f0af-4527-88af-2b043c1d7f8f
+    uid: d2320e2a-550f-4a18-83d7-1945e8852a35
     characters: []
     functionName: ResetConversation
     functionType: 0
@@ -52,7 +52,7 @@ MonoBehaviour:
   - text: '#TimeWait=0.01'
     index: 3
     episodeName: 1
-    uid: 673e9174-6aef-448c-93f9-92e644e76fd4
+    uid: 3ca82cef-9d2d-4c3a-a3b0-9a6a96089332
     characters: []
     functionName: TimeWait
     functionType: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
   - text: "#BG=\uAC80\uC740\uD654\uBA74"
     index: 4
     episodeName: 1
-    uid: 296e5406-303b-4869-ad7b-e00f77b6e7a0
+    uid: 7f96ee84-1d62-4b57-8802-1e392f2d1585
     characters: []
     functionName: BG
     functionType: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
   - text: /UIOff=0.5
     index: 5
     episodeName: 1
-    uid: dff99aae-fb40-44e7-93a5-73ab2d0ffd28
+    uid: 820318a5-c873-4e91-b786-16502796da4a
     characters: []
     functionName: UIOff
     functionType: 1
@@ -88,7 +88,7 @@ MonoBehaviour:
   - text: "\uC0D8\uD50C \uD504\uB85C\uC81D\uD2B8\uC785\uB2C8\uB2E4."
     index: 6
     episodeName: 1
-    uid: cafb2581-e5ca-4fc4-9d21-69d1785cfac1
+    uid: d0f5c8d6-4aad-41dc-a154-0eb7d993287e
     characters: []
     functionName: Conversation
     functionType: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   - text: "#VignetteInOverlayBG=\uC0D8\uD50C \uBC30\uACBD, 1.5"
     index: 7
     episodeName: 1
-    uid: e3aa4c9e-0acc-4e21-a8bc-38f6cc0b69dd
+    uid: cda3348f-96b4-4773-b4ad-80003f50af5d
     characters: []
     functionName: VignetteInOverlayBG
     functionType: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   - text: "\uC0D8\uD50C \uBC30\uACBD \uBCC0\uACBD"
     index: 8
     episodeName: 1
-    uid: 8cc5abcc-f0dd-4b78-b8e6-7a55b4d777a6
+    uid: 56a2534f-5ce7-4d0b-ac89-0299e049d1ea
     characters: []
     functionName: Conversation
     functionType: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   - text: "#Character_show=\uCE90\uB9AD\uD130 A_0"
     index: 9
     episodeName: 1
-    uid: 4f37ea00-8870-4f74-8cc2-056f227f75f9
+    uid: e9c99f76-ffb4-4c59-9f3a-a5cabbb99beb
     characters: []
     functionName: Character_show
     functionType: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
   - text: "\uCE90\uB9AD\uD130 \uB4F1\uC7A5"
     index: 10
     episodeName: 1
-    uid: 116414f7-13d5-4f0a-ae36-5453889aa2d8
+    uid: 8b0236ab-8a6c-4194-90c8-e816c9d576d8
     characters: []
     functionName: Conversation
     functionType: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   - text: "#Character_overlap=\uCE90\uB9AD\uD130 A, \uCE90\uB9AD\uD130 A_1, 0.3"
     index: 11
     episodeName: 1
-    uid: c4335cc3-392f-40cd-9a14-aac8fb3ecb3c
+    uid: 7a073db2-0018-4627-a9e8-6e1e167bfbb5
     characters: []
     functionName: Character_overlap
     functionType: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   - text: "\uCE90\uB9AD\uD130 \uC790\uC138 \uBCC0\uACBD"
     index: 12
     episodeName: 1
-    uid: f26b59e0-eda6-48fb-ba33-3911e02f06b2
+    uid: 79d2eef6-bcab-4ca3-9fe5-aba2255639c1
     characters: []
     functionName: Conversation
     functionType: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
   - text: "#VignetteInECG=\uCE90\uB9AD\uD130ECG"
     index: 13
     episodeName: 1
-    uid: 7cfdbf67-a36c-473b-ad81-a34797702298
+    uid: 74631c9a-6367-4864-83cd-6c03acc290e1
     characters: []
     functionName: VignetteInECG
     functionType: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   - text: "ECG \uBCC0\uACBD"
     index: 14
     episodeName: 1
-    uid: 006edc0c-33db-47bd-b1f4-e5f76d8382ed
+    uid: 3563938d-2549-47c4-93c3-4f3a6c11f743
     characters: []
     functionName: Conversation
     functionType: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   - text: '#Choice'
     index: 15
     episodeName: 1
-    uid: f7336044-870c-4f12-b96a-92ab1d52a07d
+    uid: bfdbe7bb-40ee-4f0e-9350-1621e691de1d
     characters: []
     functionName: Choice
     functionType: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   - text: "#Select=\uC120\uD0DD\uC9C0A"
     index: 16
     episodeName: 1
-    uid: e9ea0e04-4048-43ee-b542-23f29d942b02
+    uid: d79e1f91-14b8-433b-8bcc-1129ff23597f
     characters: []
     functionName: Select
     functionType: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
   - text: "\uC120\uD0DD\uC9C0A\uAC00 \uC120\uD0DD\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
     index: 17
     episodeName: 1
-    uid: 42a4dfdd-31d8-4007-ae2e-a58cc9fbec73
+    uid: 6e44c731-55f3-43ee-8402-635061e44a73
     characters: []
     functionName: Conversation
     functionType: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   - text: /Select
     index: 18
     episodeName: 1
-    uid: 35dba091-14ff-45f8-bc84-7fdc97b664a7
+    uid: a17cb94a-802f-42fb-bcd7-a28c31a1806c
     characters: []
     functionName: Select
     functionType: 1
@@ -241,7 +241,7 @@ MonoBehaviour:
   - text: "#Select=\uC120\uD0DD\uC9C0B"
     index: 19
     episodeName: 1
-    uid: 00dafd52-f30a-438c-a010-9e01ea743799
+    uid: 9ae64516-b7df-420b-a2e9-3db2408719a6
     characters: []
     functionName: Select
     functionType: 0
@@ -253,7 +253,7 @@ MonoBehaviour:
   - text: "\uC120\uD0DD\uC9C0B\uAC00 \uC120\uD0DD\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
     index: 20
     episodeName: 1
-    uid: 9719b03e-d913-4c03-b685-92e8c06cc0c1
+    uid: 5664e69f-fc8a-4e93-9cbd-f86e668cdad1
     characters: []
     functionName: Conversation
     functionType: 0
@@ -264,7 +264,7 @@ MonoBehaviour:
   - text: /Select
     index: 21
     episodeName: 1
-    uid: a66d9561-4a24-444e-8194-c8ce6eb7852b
+    uid: 18304a5a-27ba-4b9d-aae4-8b9ac12547b4
     characters: []
     functionName: Select
     functionType: 1
@@ -275,7 +275,7 @@ MonoBehaviour:
   - text: /Choice
     index: 22
     episodeName: 1
-    uid: 44ce1b22-0cfb-4542-be8c-9d6c9f7e9ca0
+    uid: 611e565e-620d-4919-9aea-ff4f8e830e0e
     characters: []
     functionName: Choice
     functionType: 1
@@ -286,7 +286,7 @@ MonoBehaviour:
   - text: "\uC120\uD0DD\uC9C0 \uBD84\uAE30\uAC00 \uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
     index: 23
     episodeName: 1
-    uid: 93c6e34a-8a3e-4fb1-a813-bd3b93f80d36
+    uid: 982f2978-3315-4bb8-9c98-05d0d727ec45
     characters: []
     functionName: Conversation
     functionType: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
       \uB300\uC0AC\uC785\uB2C8\uB2E4."
     index: 24
     episodeName: 1
-    uid: 4257f592-5c64-41ec-b409-f9a95ae6a7d0
+    uid: 8bbcd32c-7095-48bd-9ddb-efc3b775b674
     characters:
     - "\uBE68\uAC15\uC774"
     functionName: Conversation
@@ -310,7 +310,7 @@ MonoBehaviour:
   - text: '#END=1'
     index: 25
     episodeName: 1
-    uid: 24ac70e6-2f44-4739-81c9-f15ac5eb7180
+    uid: b6a09425-b75c-4edd-a6b4-e866200f915d
     characters: []
     functionName: END
     functionType: 0

@@ -1908,7 +1908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _episodeDatas:
-  - {fileID: 11400000, guid: eb7d2f29c11b11a4ba79dd6e3e6491e8, type: 2}
+  - {fileID: 11400000, guid: 22a712a57b83afb4f999cb6ee2aae5b2, type: 2}
   _conversationPresenter: {fileID: 1397919484}
 --- !u!1 &579169773
 GameObject:
