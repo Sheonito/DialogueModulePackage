@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 1
+  m_EditorClassIdentifier: StorylineEngine:Aftertime.StorylineEngine:EpisodeData
+  _textElements:
+  - text: '#UIOff=0'
+    index: 0
+    episodeName: 1
+    uid: 4e2eb604-ca0b-4e4b-8165-829a063a332f
+    characters: []
+    functionName: UIOff
+    functionType: 0
+    functionValues:
+    - 0
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: '#BGM=4, 1'
+    index: 1
+    episodeName: 1
+    uid: 391b21a4-eef0-4309-9156-9586466ae1a4
+    characters: []
+    functionName: BGM
+    functionType: 0
+    functionValues:
+    - 4
+    - 1
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: '#ResetConversation'
+    index: 2
+    episodeName: 1
+    uid: b21d2490-f0af-4527-88af-2b043c1d7f8f
+    characters: []
+    functionName: ResetConversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: '#TimeWait=0.01'
+    index: 3
+    episodeName: 1
+    uid: 673e9174-6aef-448c-93f9-92e644e76fd4
+    characters: []
+    functionName: TimeWait
+    functionType: 0
+    functionValues:
+    - 0.01
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "#BG=\uAC80\uC740\uD654\uBA74"
+    index: 4
+    episodeName: 1
+    uid: 296e5406-303b-4869-ad7b-e00f77b6e7a0
+    characters: []
+    functionName: BG
+    functionType: 0
+    functionValues:
+    - "\uAC80\uC740\uD654\uBA74"
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: /UIOff=0.5
+    index: 5
+    episodeName: 1
+    uid: dff99aae-fb40-44e7-93a5-73ab2d0ffd28
+    characters: []
+    functionName: UIOff
+    functionType: 1
+    functionValues:
+    - 0.5
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "\uC0D8\uD50C \uD504\uB85C\uC81D\uD2B8\uC785\uB2C8\uB2E4."
+    index: 6
+    episodeName: 1
+    uid: cafb2581-e5ca-4fc4-9d21-69d1785cfac1
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uC0D8\uD50C \uD504\uB85C\uC81D\uD2B8\uC785\uB2C8\uB2E4."
+    voicePath: []
+  - text: "#VignetteInOverlayBG=\uC0D8\uD50C \uBC30\uACBD, 1.5"
+    index: 7
+    episodeName: 1
+    uid: e3aa4c9e-0acc-4e21-a8bc-38f6cc0b69dd
+    characters: []
+    functionName: VignetteInOverlayBG
+    functionType: 0
+    functionValues:
+    - "\uC0D8\uD50C \uBC30\uACBD"
+    - 1.5
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "\uC0D8\uD50C \uBC30\uACBD \uBCC0\uACBD"
+    index: 8
+    episodeName: 1
+    uid: 8cc5abcc-f0dd-4b78-b8e6-7a55b4d777a6
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uC0D8\uD50C \uBC30\uACBD \uBCC0\uACBD"
+    voicePath: []
+  - text: "#Character_show=\uCE90\uB9AD\uD130 A_0"
+    index: 9
+    episodeName: 1
+    uid: 4f37ea00-8870-4f74-8cc2-056f227f75f9
+    characters: []
+    functionName: Character_show
+    functionType: 0
+    functionValues:
+    - "\uCE90\uB9AD\uD130 A_0"
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "\uCE90\uB9AD\uD130 \uB4F1\uC7A5"
+    index: 10
+    episodeName: 1
+    uid: 116414f7-13d5-4f0a-ae36-5453889aa2d8
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uCE90\uB9AD\uD130 \uB4F1\uC7A5"
+    voicePath: []
+  - text: "#Character_overlap=\uCE90\uB9AD\uD130 A, \uCE90\uB9AD\uD130 A_1, 0.3"
+    index: 11
+    episodeName: 1
+    uid: c4335cc3-392f-40cd-9a14-aac8fb3ecb3c
+    characters: []
+    functionName: Character_overlap
+    functionType: 0
+    functionValues:
+    - "\uCE90\uB9AD\uD130 A"
+    - "\uCE90\uB9AD\uD130 A_1"
+    - 0.3
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "\uCE90\uB9AD\uD130 \uC790\uC138 \uBCC0\uACBD"
+    index: 12
+    episodeName: 1
+    uid: f26b59e0-eda6-48fb-ba33-3911e02f06b2
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uCE90\uB9AD\uD130 \uC790\uC138 \uBCC0\uACBD"
+    voicePath: []
+  - text: "#VignetteInECG=\uCE90\uB9AD\uD130ECG"
+    index: 13
+    episodeName: 1
+    uid: 7cfdbf67-a36c-473b-ad81-a34797702298
+    characters: []
+    functionName: VignetteInECG
+    functionType: 0
+    functionValues:
+    - "\uCE90\uB9AD\uD130ECG"
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "ECG \uBCC0\uACBD"
+    index: 14
+    episodeName: 1
+    uid: 006edc0c-33db-47bd-b1f4-e5f76d8382ed
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "ECG \uBCC0\uACBD"
+    voicePath: []
+  - text: '#Choice'
+    index: 15
+    episodeName: 1
+    uid: f7336044-870c-4f12-b96a-92ab1d52a07d
+    characters: []
+    functionName: Choice
+    functionType: 0
+    functionValues: []
+    selectElements:
+    - 16
+    - 19
+    conversation: 
+    voicePath: []
+  - text: "#Select=\uC120\uD0DD\uC9C0A"
+    index: 16
+    episodeName: 1
+    uid: e9ea0e04-4048-43ee-b542-23f29d942b02
+    characters: []
+    functionName: Select
+    functionType: 0
+    functionValues:
+    - "\uC120\uD0DD\uC9C0A"
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "\uC120\uD0DD\uC9C0A\uAC00 \uC120\uD0DD\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    index: 17
+    episodeName: 1
+    uid: 42a4dfdd-31d8-4007-ae2e-a58cc9fbec73
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uC120\uD0DD\uC9C0A\uAC00 \uC120\uD0DD\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    voicePath: []
+  - text: /Select
+    index: 18
+    episodeName: 1
+    uid: 35dba091-14ff-45f8-bc84-7fdc97b664a7
+    characters: []
+    functionName: Select
+    functionType: 1
+    functionValues: []
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "#Select=\uC120\uD0DD\uC9C0B"
+    index: 19
+    episodeName: 1
+    uid: 00dafd52-f30a-438c-a010-9e01ea743799
+    characters: []
+    functionName: Select
+    functionType: 0
+    functionValues:
+    - "\uC120\uD0DD\uC9C0B"
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "\uC120\uD0DD\uC9C0B\uAC00 \uC120\uD0DD\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    index: 20
+    episodeName: 1
+    uid: 9719b03e-d913-4c03-b685-92e8c06cc0c1
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uC120\uD0DD\uC9C0B\uAC00 \uC120\uD0DD\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    voicePath: []
+  - text: /Select
+    index: 21
+    episodeName: 1
+    uid: a66d9561-4a24-444e-8194-c8ce6eb7852b
+    characters: []
+    functionName: Select
+    functionType: 1
+    functionValues: []
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: /Choice
+    index: 22
+    episodeName: 1
+    uid: 44ce1b22-0cfb-4542-be8c-9d6c9f7e9ca0
+    characters: []
+    functionName: Choice
+    functionType: 1
+    functionValues: []
+    selectElements: []
+    conversation: 
+    voicePath: []
+  - text: "\uC120\uD0DD\uC9C0 \uBD84\uAE30\uAC00 \uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    index: 23
+    episodeName: 1
+    uid: 93c6e34a-8a3e-4fb1-a813-bd3b93f80d36
+    characters: []
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uC120\uD0DD\uC9C0 \uBD84\uAE30\uAC00 \uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    voicePath: []
+  - text: "\uBE68\uAC15\uC774 : \uCE90\uB9AD\uD130 \uC774\uB984\uC774 \uD3EC\uD568\uB41C
+      \uB300\uC0AC\uC785\uB2C8\uB2E4."
+    index: 24
+    episodeName: 1
+    uid: 4257f592-5c64-41ec-b409-f9a95ae6a7d0
+    characters:
+    - "\uBE68\uAC15\uC774"
+    functionName: Conversation
+    functionType: 0
+    functionValues: []
+    selectElements: []
+    conversation: "\uCE90\uB9AD\uD130 \uC774\uB984\uC774 \uD3EC\uD568\uB41C \uB300\uC0AC\uC785\uB2C8\uB2E4."
+    voicePath: []
+  - text: '#END=1'
+    index: 25
+    episodeName: 1
+    uid: 24ac70e6-2f44-4739-81c9-f15ac5eb7180
+    characters: []
+    functionName: END
+    functionType: 0
+    functionValues:
+    - 1
+    selectElements: []
+    conversation: 
+    voicePath: []

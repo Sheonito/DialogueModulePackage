@@ -1,0 +1,27 @@
+{
+  "name": "com.lucecita.dialoguemodule",
+  "version": "0.14.15",
+  "displayName": "DialogueModule",
+  "description": "DialogueModule",
+  "documentationUrl": "None",
+  "unity": "6000.0",
+  "keywords": [],
+  "author": {
+    "name": "Lucecita",
+    "email": "chlwogh045@naver.com",
+    "url": ""
+  },
+  "dependencies": {
+    "com.unity.localization": "1.5.4",
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.editorcoroutines": "1.0.0"
+  },
+
+  "samples": [
+    {
+      "displayName": "Sample",
+      "description": "A example showing how to use this package with function classes",
+      "path": "Samples~/Sample"
+    }
+  ]
+}
