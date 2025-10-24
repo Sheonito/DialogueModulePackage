@@ -6060,21 +6060,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666164309}
   m_CullTransparentMesh: 1
---- !u!115 &1683651764
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 7
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_Type: 0
-  m_ExecutionOrder: 0
-  m_ClassName: PresenterBinder
-  m_Namespace: Lucecita.StorylineEngine
-  m_AssemblyName: StorylineEngine
 --- !u!1 &1740566659
 GameObject:
   m_ObjectHideFlags: 0
@@ -6240,7 +6225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1746145157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1683651764}
+  m_Script: {fileID: 11500000, guid: 8a6d99f0a79c7f345b67e9160d92b6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1760104993
