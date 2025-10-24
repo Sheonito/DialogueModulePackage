@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public interface IStopFunc
     {

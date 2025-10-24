@@ -3,7 +3,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public class EpisodeAssetEditor
     {

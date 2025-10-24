@@ -2,12 +2,12 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public static class FunctionCreator
     {
         private const string FunctionScriptTemplate = 
-@"using Aftertime.StorylineEngine;
+@"using Lucecita.StorylineEngine;
 public class {0} : Function, IElementChangeFunc
 {{
     public TextElement GetNextElement()
@@ -17,7 +17,7 @@ public class {0} : Function, IElementChangeFunc
 }}";
         
         private const string TypedFunctionScriptTemplate = 
-@"using Aftertime.StorylineEngine;
+@"using Lucecita.StorylineEngine;
 
 public class {0} : TypedFunction<{0}Value>, IElementChangeFunc
 {{

@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     [DisallowMultipleComponent]
     public sealed class PresenterBinder : MonoBehaviour

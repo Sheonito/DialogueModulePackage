@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public static class PathUtil
     {

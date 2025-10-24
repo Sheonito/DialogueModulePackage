@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     [Serializable]
     public struct CharacterDirectoryName

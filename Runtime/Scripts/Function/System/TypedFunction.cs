@@ -1,5 +1,5 @@
 using System;
-using Aftertime.StorylineEngine;
+using Lucecita.StorylineEngine;
 
 public abstract class TypedFunction<TFunctionEnum> : Function where TFunctionEnum : Enum
 {

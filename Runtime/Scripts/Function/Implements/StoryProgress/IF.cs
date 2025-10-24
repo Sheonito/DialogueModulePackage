@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public class IF : TypedFunction<IFFunctionValue>, IElementChangeFunc
     {

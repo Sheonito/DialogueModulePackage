@@ -8,7 +8,7 @@ using UnityEditor;
 
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public static class EpisodeDataCreator
     {

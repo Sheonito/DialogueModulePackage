@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public static class EpisodeCSVCreator
     {
@@ -327,7 +327,7 @@ namespace Aftertime.StorylineEngine
                                 .FirstOrDefault(voice => conversation == voice.Split(SeperateKey)[ConversationIndex]);
 
                             string fullVoicePath = StoryUtil.CombinePath
-                                ("Assets", nameof(Aftertime.StorylineEngine), nameof(Resources), voicePath);
+                                ("Assets", nameof(Lucecita.StorylineEngine), nameof(Resources), voicePath);
                             bool existVoiceFile = StoryUtil.ExistVoiceFile(fullVoicePath);
                             if (existVoiceFile)
                             {

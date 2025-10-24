@@ -1,6 +1,6 @@
 using CsvHelper.Configuration;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public class TextElementMap : ClassMap<TextElement>
     {

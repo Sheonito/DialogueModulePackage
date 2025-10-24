@@ -1,9 +1,10 @@
+using System.IO;
 using System.Linq;
 using Newtonsoft.Json.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine.Editor
+namespace Lucecita.StorylineEngine.Editor
 {
     public class StorylineEnginePostProcessor : AssetPostprocessor
     {
@@ -19,16 +20,12 @@ namespace Aftertime.StorylineEngine.Editor
             if (importedAssets.Length == 0)
                 return;
             
-            string packageJsonPath = "Packages/com.aftertime.storylineengine/package.json";
+            string packageJsonPath = "Packages/com.lucecita.storylineengine/package.json";
             bool isPackageLoaded = IsPackageLoaded(importedAssets,packageJsonPath);
             if (isPackageLoaded)
             {
                 SaveVersion(packageJsonPath);
-                
-                // 현재는 샘플 다운로드만 있음.
-                // 하지만 샘플은 내부로 변경해서 아무 기능이 없음.
-                // 모듈 다운로더로 변경 후 주석 해제 필요
-                // ModuleDownloader.Window();
+                CreateDirectories();
             }
         }
 
@@ -54,6 +51,22 @@ namespace Aftertime.StorylineEngine.Editor
                 string version = jObject["version"].ToString();
                 PlayerPrefs.SetString(EditorDefine.VERSION_KEY, version);
             }
+        }
+
+        private static void CreateDirectories()
+        {
+            string dataPath = $"{StoryUtil.Absolute_EnginePath}/Data";
+            if (Directory.Exists(dataPath))
+                return;
+
+            Directory.CreateDirectory(dataPath);
+            Directory.CreateDirectory($"{dataPath}/EpisodeCSV");
+            Directory.CreateDirectory($"{dataPath}/EpisodeSO");
+            Directory.CreateDirectory($"{dataPath}/Resources");
+            Directory.CreateDirectory($"{dataPath}/Setting");
+            StorylineEngineSettings.CreateStorylineEngineSetting();
+
+            AssetDatabase.Refresh();
         }
     }
 }

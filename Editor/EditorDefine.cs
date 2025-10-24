@@ -1,4 +1,4 @@
-namespace Aftertime.StorylineEngine.Editor
+namespace Lucecita.StorylineEngine.Editor
 {
     public class EditorDefine
     {

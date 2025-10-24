@@ -4,7 +4,7 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Aftertime.StorylineEngine.Editor
+namespace Lucecita.StorylineEngine.Editor
 {
     [InitializeOnLoad]
     public static class PresenterBinderAutoAdder

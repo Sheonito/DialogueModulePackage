@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     [System.Serializable]
     public class CharacterSettings

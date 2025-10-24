@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public readonly struct FunctionValue
     {

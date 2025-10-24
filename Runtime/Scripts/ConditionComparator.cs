@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using DynamicExpresso;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public static class ConditionComparator
     {

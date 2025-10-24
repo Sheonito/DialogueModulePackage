@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public static class FunctionEventRegistry
     {

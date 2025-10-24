@@ -3,7 +3,7 @@ using System.Linq;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Aftertime.StorylineEngine
+namespace Lucecita.StorylineEngine
 {
     public class GoCheckPoint : TypedFunction<GoCheckPointFunctionValue>,IElementChangeFunc
     {
