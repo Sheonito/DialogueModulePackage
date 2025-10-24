@@ -62,8 +62,8 @@ namespace Lucecita.StorylineEngine.Editor
             Directory.CreateDirectory(dataPath);
             Directory.CreateDirectory($"{dataPath}/EpisodeCSV");
             Directory.CreateDirectory($"{dataPath}/EpisodeSO");
-            Directory.CreateDirectory($"{dataPath}/Resources");
-            Directory.CreateDirectory($"{dataPath}/Setting");
+            Directory.CreateDirectory($"{StoryUtil.Absolute_EnginePath}/Resource");
+            Directory.CreateDirectory($"{StoryUtil.Absolute_EnginePath}/Story");
             StorylineEngineSettings.CreateStorylineEngineSetting();
 
             AssetDatabase.Refresh();
